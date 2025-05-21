@@ -9,12 +9,12 @@ int main() {
 
     clock_t start = clock();  
 
-    long long a = 0, b = 1, c;
+    int a = 0, b = 1, c;
 
-    printf("Fibonacci Series: %lld %lld ", a, b);
+    printf("Fibonacci Series: %d %d ", a, b);
     for (int i = 2; i < n; i++) {
         c = a + b;
-        printf("%lld ", c);
+        printf("%d ", c);
         a = b;
         b = c;
     }
