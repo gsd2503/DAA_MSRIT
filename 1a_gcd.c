@@ -1,5 +1,4 @@
 // GCD using Euclid Algorithm
-// GCD using Euclid Algorithm
 #include <stdio.h>
 #include <time.h>
 
@@ -26,7 +25,7 @@ int main() {
 
     printf("The GCD of %d and %d is: %d\n", num1, num2, result);
 
-    printf("Time taken is %f seconds\n", time_taken);
+    printf("Time taken is %f ms\n", time_taken*1000);
 
     return 0;
 }
