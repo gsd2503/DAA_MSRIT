@@ -13,4 +13,6 @@
   <li>Insertion Sort</li>
   <li>Merge Sort</li>
   <li>Quick Sort</li>
+  <li>Warshall's Algorithm</li>
+  <li>Floyds Algorithm</li>
 </ol>
